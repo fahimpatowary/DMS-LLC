@@ -1,0 +1,186 @@
+.bgPadding{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.serviceHeros .BackImages{
+    background-image: url(../image/seo/Search-Engine-Optimization.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.serviceHeros{
+    color: #fff;
+    text-align: center;
+}
+
+.serviceHeros h1{
+    font-size: 50px;
+    margin-bottom: .5rem;
+}
+
+.serviceHeros p{
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.serviceHeros .aBtn{
+    color: #fff;
+    background-color: #2e65ac;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.serviceHeros p{
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.Service1stSection .serviceImageBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Service1stSection .serviceImageBox img{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Service1stSection .serviceTextPart h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Service1stSection .serviceTextPart p{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.Service1stSection .row{
+    display: flex;
+    align-items: center;
+}
+
+.serviceHerosAbout h1{
+    margin-bottom: 20px;
+}
+
+/* Career Opportunity start */
+.CareerOpportunity h2{
+    color: #109ad5;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.opportunityCard{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #c8c6c6;
+}
+
+.opportunityCard h4 a{
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #109ad5;
+    text-decoration: none;
+}
+
+.opportunityCard p{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.opportunityCard ul{
+    padding: 0px;
+    margin: 0;
+}
+
+.opportunityCard ul li{
+    margin-bottom: 10px;
+}
+
+.opportunityCard ul li i {
+    font-size: 16px;
+    margin-right: 3px;
+}
+
+.opportunityCard .aBtn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+    background-color: #109ad5;
+    text-decoration: none;
+}
+/* Career Opportunity end */
+
+@media screen and (max-width: 1023px) {
+    .bgPadding{
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .serviceHeros h1 {
+        font-size: 35px;
+    }
+
+    .serviceHeros p {
+        font-size: 22px;
+    }
+
+    .serviceHerosAbout .bgPadding {
+        padding-bottom: 2px;
+    }
+
+    .CareerOpportunity h2 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bgPadding{
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .serviceHeros h1 {
+        font-size: 25px;
+    }
+
+    .serviceHeros p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .Service1stSection .serviceImageBox{
+        margin-bottom: 20px;
+    }
+
+    .about_us_content_2 h3 {
+        font-size: 20px;
+    }
+
+    .CareerOpportunity h2 {
+        font-size: 24px;
+    }
+}

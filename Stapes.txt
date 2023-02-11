@@ -1,0 +1,8 @@
+.services pages (done)
+.protfolio (done)
+.company
+	.about us (done)
+	.mission and vission (done)
+	.our team
+	.career Opportunety (done)
+.Blog, Blog single page (done)
